@@ -1,0 +1,2 @@
+class Servdetail < ApplicationRecord
+end

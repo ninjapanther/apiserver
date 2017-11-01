@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cpu: 1
+  disk: 1
+  process: MyString
+
+two:
+  name: MyString
+  cpu: 1
+  disk: 1
+  process: MyString
