@@ -1,0 +1,48 @@
+ubuntu@rails-dev-box:~$ sudo service ufw start
+ubuntu@rails-dev-box:~$
+sudo ufw enable
+
+ubuntu@rails-dev-box:~$ sudo iptables -I INPUT -p tcp --dport 12321 -j ACCEPT
+
+
+ubuntu@rails-dev-box:~$ sudo ufw allow 12321/tcp
+Rules updated
+Rules updated (v6)
+ubuntu@rails-dev-box:~$
+
+ubuntu@rails-dev-box:~$ sudo ufw allow 1701
+Rules updated
+Rules updated (v6)
+ubuntu@rails-dev-box:~$ nc -l 1701
+
+
+def initializer(numer)
+@value = numer
+sd.cpu = numer
+end
+
+  def cpustatus(numer)
+  {
+    if (numer > 20)
+      "high email server root"
+    else
+      "normal"
+    end
+	}
+end
+ 
+
+
+guest_book_test.rb
+require 'test_helper'
+class GuestBookTest < ActiveSupport::TestCase
+test "should not save guest_book with invalid user" do
+	@guest_book = GuestBook.new
+		@guest_book.user="Steven"
+		assert_match(/\b[a-zA-Z]){6,20}\b/, @guest_book.user,"is not 6 to 20 characters")
+		end
+		end
+		
+		
+		bundle exec rake test /../../r.rb
+		

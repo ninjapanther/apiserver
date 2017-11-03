@@ -4,17 +4,22 @@ class SdTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
+ 
+
+def setup
+def cpustatus
+    if (sd.cpu > 20)
+      "high email server root"
+    else
+      "normal"
+    end
+@post1 = cpustatus(2)
+#@post2 = posts(:post2)
+end
+assert_not object.nil?
+
+end
+end
   
 
- def setup
-@post1 = posts(:post1)
-@post2 = posts(:post2)
-end
- test "validates user_id presence" do
-@post1.user_id = nil
-assert_not @post1.valid?
 
-end
-  
-  
-end

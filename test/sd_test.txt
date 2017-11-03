@@ -1,0 +1,12 @@
+require "test/unit"
+class BooleanTest < Test::Unit::TestCase
+
+test "it should ______ when CPU > 20"
+  # Add code here to create an Sd and verify the output
+  # Something like:
+  sd = Sd.new(cpu: 30)
+  assert sd.cpustatus ==  "high email server root"
+end
+
+	
+end
