@@ -6,6 +6,7 @@
     <tr>
       <th>Servername</th>
       <th>Cpu</th>
+	   
       <th>Disk</th>
       <th>Process</th>
       <th colspan="3"></th>
@@ -16,13 +17,14 @@
     <% @sds.each do |sd| %>
       <tr>
         <td><%= sd.name %></td>
-        <td><%= sd.cpu %> 
+		 
+        <td><%= sd.cpu %> </td>
+	
 	
         <td><%= sd.disk %></td>
         <td><%= sd.process %></td>
         <td><%= link_to 'Show', sd %></td>
        
-        <td><%= link_to 'Destroy', sd, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

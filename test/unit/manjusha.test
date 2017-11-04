@@ -1,6 +1,8 @@
+git push --set-upstream origin test
 ubuntu@rails-dev-box:~$ sudo service ufw start
 ubuntu@rails-dev-box:~$
 sudo ufw enable
+        <td><%= link_to 'Destroy', sd, method: :delete, data: { confirm: 'Are you sure?' } %></td>  from sls index
 
 ubuntu@rails-dev-box:~$ sudo iptables -I INPUT -p tcp --dport 12321 -j ACCEPT
 
